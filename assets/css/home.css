@@ -10,7 +10,7 @@
 
 body 
 {
-    background-image:url("/images/lawn.jpg");
+    background-image:url("Website-Project/images/lawn.jpg");
     background-color: #f9f9f9;
     height: 100%;
     background-size: contain;
