@@ -36,6 +36,7 @@ header
     font-size: xx-large;
     color: aquamarine;
     pointer-events: auto;
+    text-shadow: 2px 2px 2px black;
 }
 
 .navigation a 
@@ -47,6 +48,7 @@ header
     border-radius: 20px;
     margin: 0 10px;
     font-weight: 600;
+    text-shadow: 2px 2px 2px black;
 
 }
 
