@@ -35,6 +35,7 @@ header
 .name {
     font-size: xx-large;
     color: aquamarine;
+    pointer-events: auto;
 }
 
 .navigation a 
