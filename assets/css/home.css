@@ -40,10 +40,31 @@ header
     z-index: 100;
 }
 
+.navigation a 
+{
+    text-decoration: none;
+    font-size:large;
+    color:#a6a6a6;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;
+    border: 4px solid #191919; 
+}
+
+.navigation a:hover,
+.navigation a.active
+{
+    background: #a6a6a6;
+    color: #191919;
+    text-shadow: .5px .5px .5px #565656;
+    border: 2px solid white;
+}
 
 /* index.html CSS */
 
-.a_body
+.i_body
 {
     background-image: url("../../images/lawn.jpg");
     background: linear-gradient(220.55deg,  #3d5432 0%, #61c695 400%);    
@@ -53,7 +74,7 @@ header
     overflow-x: hidden;
 }
 
-.a_header
+.i_header
 {
     position: absolute;
     top: 0;
@@ -71,27 +92,6 @@ header
     color: #a6a6a6;
     pointer-events: auto;
     text-shadow: 2px 2px 2px black;
-}
-
-.navigation a 
-{
-    text-decoration: none;
-    font-size:large;
-    color:#a6a6a6;
-    padding: 6px 15px;
-    border-radius: 20px;
-    margin: 0 10px;
-    font-weight: 600;
-    text-shadow: 2px 2px 2px black;
-
-}
-
-.navigation a:hover,
-.navigation a.active
-{
-    background: #a6a6a6;
-    color: #191919;
-    text-shadow: .5px .5px .5px #565656;
 }
 
 .welcome
@@ -138,12 +138,25 @@ header
 
 .a_body
 {
-
+    background-image: url("../../images/lawn.jpg");
+    background: linear-gradient(220.55deg,  #3d5432 0%, #61c695 400%);    
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 .a_header
 {
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
 .about
