@@ -87,6 +87,15 @@
 
 }
 
+/*
+.frontlawn
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
 #text1
 {
     position: absolute;
@@ -100,11 +109,13 @@
 {
     position: relative;
     display: flex;
+    
     font-size:20px;
-    color: #a6a6a6;
+    color: black;
     text-shadow: 2px 2px 2px black;
     bottom: -90px;
-    border-bottom: 2px solid #181818;
+    left: 300px;
+    border-bottom: 4px solid #3d5432;
 }
 
 .description
