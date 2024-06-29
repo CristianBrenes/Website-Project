@@ -5,7 +5,6 @@
     src: url('../../fonts/Nippo_Complete/Fonts/WEB/fonts/fonts/Nippo-Regular.woff2') format('woff2'),
          url('../../fonts/Nippo_Complete/Fonts/WEB/fonts/onts/Nippo-Regular.woff') format('woff'),
          url('../../fonts/Nippo_Complete/Fonts/WEB/fonts/Nippo-Regular.ttf') format('truetype');
-    font-weight: 400;
     font-display: swap;
     font-style: normal;
 }
@@ -15,14 +14,13 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: Nippo-Regular
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Nippo-Regular';
+    font-weight: 400;
+    font
 }   
 
 body 
 {
-    background-image: url("../../images/lawn.jpg");
     background: linear-gradient(220.55deg,  #3d5432 0%, #61c695 400%);    
     height: 100%;
     background-size: contain;
@@ -153,7 +151,7 @@ header
 {
     position: relative;
     padding: 1%;
-    font-size: 22px;
+    font-size: 25px;
     color: #a6a6a6;
     text-shadow: 2px 2px 2px black;
     top: -300px;
