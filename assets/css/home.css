@@ -1,11 +1,24 @@
 /* General layout CSS */ 
+
+@font-face {
+    font-family: 'Nippo-Regular';
+    src: url('../fonts/Nippo-Regular.woff2') format('woff2'),
+         url('../fonts/Nippo-Regular.woff') format('woff'),
+         url('../fonts/Nippo-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
 *
 {
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: url('');
-}
+    font-family: Nippo-Regular
+    font-weight: normal;
+    font-style: normal;
+}   
 
 body 
 {
