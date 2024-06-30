@@ -18,6 +18,19 @@
     font-weight: 400;
 }  
 
+#logo1
+{
+    display: flex;
+    max-width: 15%;
+    max-height: 15%;
+}
+
+#logo2
+{
+    display: flex;
+    max-width: 90%;
+    max-height: 90%;
+}
 
 .navigation a 
 {
@@ -67,10 +80,9 @@
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    z-index: 100;
     gap: 0;
+    background-color: #3d5432;
 }
 
 .name {
@@ -91,12 +103,7 @@
 
 }
 
-header img
-{
-    display: flex;
-    max-width: 10%;
-    max-height: 10%;
-}
+
 
 /*
 .frontlawn
