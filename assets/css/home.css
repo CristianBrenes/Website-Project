@@ -170,10 +170,21 @@ body
     border-radius: 50%;
     text-shadow: 
     1px 1px 1px  white, 
-    0 0 1rem  #565656;
+    0 0 .5rem  #565656;
 }
 
-
+.aboutus2{
+    position: relative;
+    display: flex;
+    color: #a6a6a6;
+    text-shadow:  1.5px 1.5px 1.5px black;
+    font-size: 2.5rem;
+    padding: 2rem 4rem 2rem 4rem;
+    background-color: #3d5432;
+    margin: 4rem 4rem 2rem 4rem;
+    box-shadow: 0 0 .25em .25em #565656, 
+    0 0 .5em .5em white;
+}
 
 /* contact.html CSS */
 
@@ -193,17 +204,50 @@ body
 
 }
 
-#con {
+.contactus2{
+    background-color: #3d5432;
+    margin: 1rem 80rem 1rem 4rem;
+    padding: 1.4rem;
+    box-shadow:0 0 .25em .25em #565656, 
+    0 0 .5em .5em white;
+}
+
+.c_title{
     position: relative;
     display: flex;
-    padding: 1%;
-    font-size: 25px;
+    font-size: 2.3rem;
     color: #a6a6a6;
-    text-shadow: 2px 2px 2px black;
-    top: -300px;
-    left: -500px;
-    border: 4px solid white;
+    text-shadow:  1.5px 1.5px 1.5px black;
+     
 }
+
+.our_info_box{
+    background-color: #3d5432;
+    margin: 1rem 70rem 1rem 4rem;
+    padding: 1.4rem;
+    box-shadow:0 0 .25em .25em #565656, 
+    0 0 .5em .5em white;
+}
+
+.our_info {
+    position: relative;
+    display: flex;
+    font-size: 1.8rem;
+    color: #a6a6a6;
+    text-shadow:  1.5px 1.5px 1.5px black;
+  
+}
+
+li{
+    position: relative;
+    display: flex;
+    color: black;
+    text-shadow:  1.5px 1.5px 1.5px black;
+    font-size: 2.5rem;
+    padding: .5rem .5rem .5rem .5rem;
+}
+
+
 
 /* services.html CSS */
 
@@ -222,22 +266,29 @@ body
     0 0 1rem  #565656;
 }
 
-#serv {
-    position: relative;
-    padding: 1%;
-    font-size: 28px;
-    color: #a6a6a6;
-    text-shadow: 2px 2px 2px black;
-    top: -300px;
-    left: -400px;
+.services2{
+    background-color: #3d5432;
+    margin: 1rem 89rem 1rem 4rem;
+    padding: 1.4rem;
+    box-shadow:0 0 .25em .25em #565656, 
+    0 0 .5em .5em white;
+
+
 }
 
-ul.a {
-    font-size: large;
-    list-style-type: square;
+.s_title{
     position: relative;
     display: flex;
-    left: -500px;
-    top: -200px;
-    padding: 7px;
+    font-size: 2.3rem;
+    color: #a6a6a6;
+    text-shadow:  1.5px 1.5px 1.5px black;
+    
+}
+
+li {
+    font-size: 1.5rem;
+    text-shadow: .3px .3px .3px  white, 
+    0 0 1rem  #565656;
+
+
 }
