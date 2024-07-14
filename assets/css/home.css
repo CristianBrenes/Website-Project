@@ -22,7 +22,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    background-color: #3d5432;    
+    background-color: #3d5432; 
+    box-shadow: 0 0 1rem 0 black;   
 }
 /*
 .logo1 {
