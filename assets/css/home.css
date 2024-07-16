@@ -323,7 +323,6 @@ body
     font-size: 2.3rem;
     color: #a6a6a6;
     text-shadow:  1.5px 1.5px 1.5px black;
-    
 }
 
 li {
@@ -339,6 +338,7 @@ li {
     display: flex;
     justify-content: space-evenly;
     height: 100%;
+    margin: 0 0 6rem 0;
 }
 
 .plan1_box {
@@ -371,7 +371,6 @@ li {
     color:#3d5432;
     font-size: 2rem;
     border-bottom: 2px solid #191919;
-    
 }
 
 
@@ -393,7 +392,6 @@ li {
     text-shadow: 
     1px 1px 1px  white, 
     0 0 1rem  #565656;   
-
 }
 
 .startsat2 {
@@ -405,7 +403,7 @@ li {
     color:#3d5432;
     font-size: 2.5rem;
     border-bottom: 3px solid #191919;
-    
+
 }
 
 .plan3_box {
@@ -415,8 +413,6 @@ li {
     0 0 .5em .5em white;
     padding: 3rem 7rem 3rem 7rem;
     height: 100%;
-
-
 }
 
 .plan3_title {
