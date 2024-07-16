@@ -84,6 +84,7 @@ body
     left: -2rem; 
 
 }
+
 .text1 {
     position: relative;
     display: flex;
@@ -99,7 +100,7 @@ body
     0 0 1rem  #565656;
 }
 
-.text2 {
+/* .text2 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -110,9 +111,9 @@ body
     text-shadow: 
     1px 1px 1px  white, 
     0 0 1rem  #565656;
-}
+} */
 
-.description
+/* .description
 {
     position: relative;
     display: flex;
@@ -127,33 +128,33 @@ body
     0 0 1rem  #565656;
     margin-right: 96rem;
     border-bottom: 5px solid black;
-}
+} */
 
 .paragraph {
     position: relative;
     display: flex;
-    align-self: center;
-    font-size: 2.5rem;
-    color: #a6a6a6;
-    text-shadow: 1.5px 1.5px 1.5px black;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: black;
+    text-shadow: 1.5px 1.5px 1.5px white;
     padding: 2rem 4rem 2rem 4rem;
-    margin: 4.3rem 4rem 4rem 4rem;
-    background-color: #3d5432;
-    box-shadow: 0 0 .5em .5em #565656, 
-    0 0 1em 1em white;
-    border-radius: 20px;
+    margin: 2rem 18rem 4rem 18rem;
+    /* background-color: #3d5432; */
+    /* box-shadow: 0 0 .5em .5em #565656,  */
+    /* 0 0 1em 1em white; */
+    /* border-radius: 20px; */
 }
 
 .slider{
     width: 100%;
     height: var(--height);
     overflow: hidden;
-    mask-image: linear-gradient(
+    /* mask-image: linear-gradient(
         to right,
         transparent,
         #000 10% 90%,
         transparent
-    );
+    ); */
     margin: 1rem 0 3rem 0;
     padding: 1rem 0 3rem 0;
 }
@@ -187,6 +188,9 @@ body
 
 /* about.html CSS */
 
+
+
+
 .aboutus {
     position: relative;
     display: flex;
@@ -205,14 +209,15 @@ body
 .aboutus2{
     position: relative;
     display: flex;
-    color: #a6a6a6;
-    text-shadow:  1.5px 1.5px 1.5px black;
-    font-size: 2.5rem;
+    align-content: center;
+    color: black;
+    text-shadow:  1.5px 1.5px 1.5px white;
+    font-size: 1.8rem;
     padding: 2rem 4rem 2rem 4rem;
-    background-color: #3d5432;
-    margin: 4rem 4rem 2rem 4rem;
-    box-shadow: 0 0 .25em .25em #565656, 
-    0 0 .5em .5em white;
+    /* background-color: #3d5432; */
+    margin: 4rem 18rem 2rem 18rem;
+    /* box-shadow: 0 0 .25em .25em #565656, 
+    0 0 .5em .5em white; */
 }
 
 /* contact.html CSS */
@@ -233,50 +238,50 @@ body
 
 }
 
-.contactus2{
-    background-color: #3d5432;
-    margin: 1rem 80rem 1rem 4rem;
-    padding: 1.4rem;
-    box-shadow:0 0 .25em .25em #565656, 
-    0 0 .5em .5em white;
-}
-
-.c_title{
+.title{
     position: relative;
     display: flex;
+    justify-content: center;
+    margin: 3rem 0 .7rem 0rem;
     font-size: 2.3rem;
     color: #a6a6a6;
     text-shadow:  1.5px 1.5px 1.5px black;
      
 }
 
-.our_info_box{
-    background-color: #3d5432;
-    margin: 1rem 70rem 1rem 4rem;
-    padding: 1.4rem;
-    box-shadow:0 0 .25em .25em #565656, 
-    0 0 .5em .5em white;
-}
-
-.our_info {
+.needed {
     position: relative;
     display: flex;
-    font-size: 1.8rem;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    text-shadow:  1.5px 1.5px 1.5px black;
+    font-size: 2.5rem;
+    padding: .8rem .8rem .8rem .8rem;
+}
+
+.title2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 .7rem 0;
+    padding: ;
+    font-size: 2.3rem;
     color: #a6a6a6;
     text-shadow:  1.5px 1.5px 1.5px black;
   
 }
 
-li{
+.our_info {
     position: relative;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: black;
     text-shadow:  1.5px 1.5px 1.5px black;
     font-size: 2.5rem;
-    padding: .5rem .5rem .5rem .5rem;
+    padding: .8rem .8rem .8rem .8rem;
 }
-
-
 
 /* services.html CSS */
 
@@ -296,11 +301,14 @@ li{
 }
 
 .services2{
-    background-color: #3d5432;
-    margin: 1rem 89rem 1rem 4rem;
-    padding: 1.4rem;
-    box-shadow:0 0 .25em .25em #565656, 
-    0 0 .5em .5em white;
+    /* background-color: #3d5432; */
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    /* margin: 1rem 1rem 1rem 38rem; */
+    /* padding: 1.4rem; */
+    /* box-shadow:0 0 .25em .25em #565656,  */
+    /* 0 0 .5em .5em white; */
 
 
 }
@@ -308,6 +316,8 @@ li{
 .s_title{
     position: relative;
     display: flex;
+    justify-content: center;
+    margin: 3rem 0 2rem 0;
     font-size: 2.3rem;
     color: #a6a6a6;
     text-shadow:  1.5px 1.5px 1.5px black;
@@ -315,6 +325,8 @@ li{
 }
 
 li {
+    display: flex;
+    justify-content: center;
     font-size: 1.5rem;
     text-shadow: .3px .3px .3px  white, 
     0 0 1rem  #565656;
