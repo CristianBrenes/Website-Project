@@ -156,7 +156,7 @@ body
         transparent
     ); */
     margin: 1rem 0 3rem 0;
-    padding: 1rem 0 3rem 0;
+    padding: 1rem 0 10rem 0;
 }
 .slider .list{
     display: flex;
@@ -285,7 +285,7 @@ body
 
 /* services.html CSS */
 
-.services {
+.services_title {
     position: relative;
     display: flex;
     align-content: center;
@@ -299,30 +299,64 @@ body
     1px 1px 1px  white, 
     0 0 1rem  #565656;
 }
-
-.services2{
-    /* background-color: #3d5432; */
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    margin: 0 0 4rem 0;
-    height: 100%;
-    /* margin: 1rem 1rem 1rem 38rem; */
-    /* padding: 1.4rem; */
-    /* box-shadow:0 0 .25em .25em #565656,  */
-    /* 0 0 .5em .5em white; */
-
-
-}
-
-.s_title{
+.services {
     position: relative;
     display: flex;
     justify-content: center;
-    margin: 3rem 0 1rem 0;
-    font-size: 2.3rem;
-    color: #a6a6a6;
-    text-shadow:  1.5px 1.5px 1.5px black;
+}
+.basic_services_box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem -40rem 2rem -40rem;
+    height: 100%;
+}
+
+.basic_services_title {
+    position: relative;
+    padding: 1rem 0 0 0;
+    color: black;
+    text-shadow: 0 0 1rem 1rem #565656, 
+    0 0 1.5em 1.5em white;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #191919;
+    margin: 0 45rem 1rem 45rem;
+}
+
+.basic_service_list {
+    position: relative;
+    color: black;
+    text-shadow: 0 0 1rem 1rem #565656, 
+    0 0 1.5em 1.5em white;
+    font-size: 1.8rem;
+}
+
+.specialized_services_box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem -40rem 2rem -40rem;
+    height: 100%;
+}
+
+.specialized_services_title {
+    position: relative;
+    padding: 1rem 0 0 0;
+    color: black;
+    text-shadow: 0 0 1rem 1rem #565656, 
+    0 0 1.5em 1.5em white;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #191919;
+    margin: 0 45rem 1rem 45rem;
+}
+.specialized_services_list {
+    position: relative;
+    color: black;
+    text-shadow: 0 0 1rem 1rem #565656, 
+    0 0 1.5em 1.5em white;
+    font-size: 1.8rem;
 }
 
 li {
@@ -338,14 +372,14 @@ li {
     display: flex;
     justify-content: space-evenly;
     height: 100%;
-    margin: 0 0 6rem 0;
+    margin: 4rem 0 6rem 0;
 }
 
 .plan1_box {
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: #a6a6a6;
+    background-color: #cccccc;
     box-shadow: 0 0 .25em .25em #565656, 
     0 0 .5em .5em white;
     padding: 3rem 7rem 3rem 7rem;
@@ -377,7 +411,7 @@ li {
 
 .plan2_box {
     position: relative;
-    background-color: #a6a6a6;
+    background-color: #cccccc;
     box-shadow: 0 0 .25em .25em #565656, 
     0 0 .5em .5em white;
     padding: 3rem 7rem 3rem 7rem;
@@ -408,7 +442,7 @@ li {
 
 .plan3_box {
     position: relative;
-    background-color: #a6a6a6;
+    background-color: #cccccc;
     box-shadow: 0 0 .25em .25em #565656, 
     0 0 .5em .5em white;
     padding: 3rem 7rem 3rem 7rem;
